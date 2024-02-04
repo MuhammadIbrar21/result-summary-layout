@@ -1,0 +1,188 @@
+/* electric Reaction color #e3b4b3 */
+/* visual #1a237e */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  width: 45%;
+  height: 70%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  border-radius: 20px;
+  gap: 20px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.15);
+}
+section {
+  flex-grow: 1;
+  width: 50%;
+  height: 100%;
+}
+section:first-child {
+  border-radius: 20px;
+  background-color: #603ffc;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-size: large;
+  font-weight: normal;
+  position: relative;
+}
+.result-review {
+  width: 80%;
+  height: 80%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  margin: auto;
+}
+.score-board {
+  width: 60%;
+  height: 43%;
+  margin: auto;
+  position: relative;
+  margin-top: 15%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 50%;
+  background: linear-gradient(
+    0deg,
+    rgba(96, 63, 252, 1) 0%,
+    rgba(40, 40, 190, 1) 51%
+  );
+}
+.score span:first-child {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  font-size: 3em;
+  font-weight: bolder;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+.total-score {
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  padding-top: 48%;
+  margin: auto;
+  font-size: 0.7em;
+  font-weight: lighter;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+.score-expression {
+  margin-top: 10%;
+}
+.score-expression div {
+  margin-top: 10%;
+  font-size: 0.85em;
+  font-weight: 10;
+}
+.summary {
+  font-size: large;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 14%;
+  margin-left: 5%;
+  position: relative;
+}
+.exam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orange; */
+  width: 90%;
+  height: 75%;
+  margin-top: 5%;
+  gap: 10px;
+  flex-direction: column;
+}
+.exam-list {
+  border-radius: 10px;
+  width: 90%;
+  height: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.exam-list div {
+  margin: 6%;
+}
+.exam-list img {
+  width: 20px;
+  position: absolute;
+  display: inline;
+}
+.exam-list p {
+  margin-left: 15%;
+  display: inline;
+}
+.obtained {
+  color: black;
+}
+.obtained span {
+  font-weight: bold;
+}
+.exam-list:first-child {
+  background-color: rgba(219, 112, 147, 0.2);
+  color: palevioletred;
+}
+.exam-list:nth-child(2) {
+  background-color: rgba(253, 216, 53, 0.2);
+  color: rgb(253, 216, 53);
+}
+.exam-list:nth-child(2) .obtained {
+  margin-left: 18%;
+}
+.exam-list:nth-child(3) {
+  background-color: rgba(0, 121, 107, 0.2);
+  color: rgb(0, 121, 107);
+}
+.exam-list:nth-child(3) .obtained {
+  margin-left: 23%;
+}
+.exam-list:nth-child(4) {
+  background-color: rgba(26, 35, 126, 0.2);
+  color: rgb(26, 35, 126);
+}
+.exam-list:nth-child(4) .obtained {
+  margin-left: 25%;
+}
+.exam-list:nth-child(5) {
+  background-color: #2d3d5a;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 10%;
+  position: relative;
+}
+.btn {
+  margin-left: 5%;
+  width: 87%;
+  position: absolute;
+  height: 20%;
+  text-align: center;
+}
